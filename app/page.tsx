@@ -86,16 +86,15 @@ export default function Home() {
 
       {/* Main Content Area */}
       <main className="relative flex-1 flex flex-col items-center justify-center py-8">
-        {/* Center Logo/Emblem */}
-        <div className="mb-8">
-          <div className="w-64 h-64 md:w-80 md:h-80 bg-white/90 backdrop-blur-md rounded-full shadow-2xl flex items-center justify-center">
-            <div className="text-center">
-              <Shield className="w-32 h-32 md:w-40 md:h-40 text-newman-red mx-auto mb-4" />
-              <h2 className="text-2xl md:text-3xl font-bold text-newman-red">NEWMAN</h2>
-              <p className="text-lg md:text-xl text-newman-red-secondary font-semibold">KNIGHTS</p>
-              <p className="text-sm text-gray-600 mt-2">Virtual Trophy Case</p>
-            </div>
-          </div>
+        {/* Center Knight Logo - Main Focal Point */}
+        <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
+          <Image
+            src="/Correct Knight PNG (1).png"
+            alt="Newman Catholic Knight Logo"
+            fill
+            className="object-contain drop-shadow-2xl"
+            priority
+          />
         </div>
       </main>
 
