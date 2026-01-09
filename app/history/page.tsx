@@ -30,11 +30,11 @@ export default function HistoryPage() {
 
       <main className="container mx-auto px-6 py-12">
         <div className="bg-white/90 backdrop-blur-md rounded-xl shadow-xl p-8 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-newman-red mb-6">Our Legacy</h2>
+          <h2 className="text-3xl font-bold text-newman-red mb-6">Our History</h2>
           <p className="text-gray-600 mb-8">
-            For over 60 years, Newman Catholic High School has been a cornerstone of
-            excellence in Mason City, Iowa. Our history is filled with remarkable
-            achievements and memorable moments.
+            Originally, Newman Catholic was built as Central Catholic High School to serve
+            several parishes in the North Iowa area. Newman Catholic High School was
+            established in 1960 with the guidance of Rev. William Powers.
           </p>
 
           <div className="space-y-4">
