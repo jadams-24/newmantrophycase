@@ -21,9 +21,9 @@ export default function AthleticsPage() {
       <header className="relative bg-white/95 backdrop-blur-sm shadow-md">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/explore" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+            <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
               <ArrowLeft className="w-6 h-6 text-newman-red" />
-              <span className="text-lg font-semibold text-newman-red">Back to Categories</span>
+              <span className="text-lg font-semibold text-newman-red">Back to Home</span>
             </Link>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
