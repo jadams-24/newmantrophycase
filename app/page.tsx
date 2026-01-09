@@ -71,7 +71,7 @@ export default function Home() {
             <div
               className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]"
               style={{
-                filter: 'drop-shadow(0 0 8px rgba(255,255,255,0.4)) drop-shadow(0 0 15px rgba(255,255,255,0.3)) drop-shadow(0 0 25px rgba(255,255,255,0.2))',
+                filter: 'drop-shadow(0 0 2px rgba(255,255,255,0.9)) drop-shadow(0 0 6px rgba(255,255,255,0.7)) drop-shadow(0 0 12px rgba(255,255,255,0.5)) drop-shadow(0 0 20px rgba(255,255,255,0.3)) drop-shadow(0 0 35px rgba(255,255,255,0.15)) drop-shadow(0 0 50px rgba(255,255,255,0.05))',
               }}
             >
               <Image
