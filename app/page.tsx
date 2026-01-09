@@ -66,15 +66,13 @@ export default function Home() {
       {/* Main Content Area with Knight Logo and Circular Navigation */}
       <main className="relative flex-1 flex items-center justify-center">
         <div className="relative w-full h-full min-h-[calc(100vh-80px)]">
-          {/* Center Knight Logo with Sunburst */}
+          {/* Center Knight Logo with Fading Border */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            {/* Subtle White Sunburst */}
+            {/* Fading White Border */}
             <div
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[160%] h-[160%] opacity-[0.18]"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[115%] rounded-full"
               style={{
-                background: 'conic-gradient(from 0deg, transparent 0deg, white 1deg, transparent 3deg, transparent 60deg, white 61deg, transparent 63deg, transparent 120deg, white 121deg, transparent 123deg, transparent 180deg, white 181deg, transparent 183deg, transparent 240deg, white 241deg, transparent 243deg, transparent 300deg, white 301deg, transparent 303deg, transparent 360deg)',
-                maskImage: 'radial-gradient(circle, white 25%, transparent 65%)',
-                WebkitMaskImage: 'radial-gradient(circle, white 25%, transparent 65%)',
+                background: 'radial-gradient(circle, transparent 50%, rgba(255,255,255,0.3) 70%, transparent 85%)',
               }}
             />
             <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
