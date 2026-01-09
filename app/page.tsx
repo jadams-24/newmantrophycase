@@ -66,8 +66,15 @@ export default function Home() {
       {/* Main Content Area with Knight Logo and Circular Navigation */}
       <main className="relative flex-1 flex items-center justify-center">
         <div className="relative w-full h-full min-h-[calc(100vh-80px)]">
-          {/* Center Knight Logo */}
+          {/* Center Knight Logo with Sunburst */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            {/* Subtle White Sunburst */}
+            <div
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] opacity-15"
+              style={{
+                background: 'conic-gradient(from 0deg, transparent 0deg, white 2deg, transparent 4deg, transparent 15deg, white 17deg, transparent 19deg, transparent 30deg, white 32deg, transparent 34deg, transparent 45deg, white 47deg, transparent 49deg, transparent 60deg, white 62deg, transparent 64deg, transparent 75deg, white 77deg, transparent 79deg, transparent 90deg, white 92deg, transparent 94deg, transparent 105deg, white 107deg, transparent 109deg, transparent 120deg, white 122deg, transparent 124deg, transparent 135deg, white 137deg, transparent 139deg, transparent 150deg, white 152deg, transparent 154deg, transparent 165deg, white 167deg, transparent 169deg, transparent 180deg, white 182deg, transparent 184deg, transparent 195deg, white 197deg, transparent 199deg, transparent 210deg, white 212deg, transparent 214deg, transparent 225deg, white 227deg, transparent 229deg, transparent 240deg, white 242deg, transparent 244deg, transparent 255deg, white 257deg, transparent 259deg, transparent 270deg, white 272deg, transparent 274deg, transparent 285deg, white 287deg, transparent 289deg, transparent 300deg, white 302deg, transparent 304deg, transparent 315deg, white 317deg, transparent 319deg, transparent 330deg, white 332deg, transparent 334deg, transparent 345deg, white 347deg, transparent 349deg, transparent 360deg)',
+              }}
+            />
             <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
               <Image
                 src="/Correct Knight PNG (1).png"
