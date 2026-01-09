@@ -17,8 +17,9 @@ export default function Home() {
     { label: 'Academics', href: '/academics', position: '10' },
     { label: 'Athletics', href: '/athletics', position: '2' },
     { label: 'Fine Arts', href: '/fine-arts', position: '4' },
+    { label: 'Legacy Knights', href: '/legacy-knights', position: '5' },
+    { label: 'Vocations', href: '/vocations', position: '7' },
     { label: 'History', href: '/history', position: '8' },
-    { label: 'Vocations', href: '/vocations', position: '6' },
   ]
 
   // Clock position styles (relative to center)
@@ -30,8 +31,10 @@ export default function Home() {
         return 'top-[20%] right-[18%]'
       case '4': // 4 o'clock - lower right
         return 'top-[55%] right-[15%]'
-      case '6': // 6 o'clock - bottom center
-        return 'bottom-[12%] left-1/2 -translate-x-1/2'
+      case '5': // 5 o'clock - bottom right
+        return 'bottom-[15%] right-[22%]'
+      case '7': // 7 o'clock - bottom left
+        return 'bottom-[15%] left-[22%]'
       case '8': // 8 o'clock - lower left
         return 'top-[55%] left-[15%]'
       default:
