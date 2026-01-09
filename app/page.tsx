@@ -53,34 +53,11 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/30" />
       </div>
 
-      {/* Header Section */}
-      <header className="relative bg-white/95 backdrop-blur-sm shadow-md">
-        <div className="container mx-auto px-6 py-3 flex items-center justify-between">
-          {/* Left Side - School Name */}
-          <div className="flex items-center space-x-3">
-            <div>
-              <h1 className="text-lg font-bold text-newman-red tracking-wide">
-                NEWMAN CATHOLIC HIGH SCHOOL
-              </h1>
-            </div>
-          </div>
-
-          {/* Right Side - Location and Knight Logo */}
-          <div className="flex items-center space-x-4">
-            <div className="text-sm text-gray-600">
-              Mason City, Iowa
-            </div>
-            <div className="relative w-12 h-12 md:w-16 md:h-16">
-              <Image
-                src="/Correct Knight PNG (1).png"
-                alt="Newman Catholic Knight Logo"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-          </div>
-        </div>
+      {/* Transparent Header */}
+      <header className="relative py-6">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white text-center tracking-widest drop-shadow-lg">
+          NEWMAN CATHOLIC SCHOOLS
+        </h1>
       </header>
 
       {/* Main Content Area with Knight Logo and Circular Navigation */}
