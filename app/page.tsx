@@ -70,9 +70,11 @@ export default function Home() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             {/* Subtle White Sunburst */}
             <div
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200%] h-[200%] opacity-[0.08]"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-[0.05]"
               style={{
-                background: 'conic-gradient(from 0deg, transparent 0deg, white 1deg, transparent 2deg, transparent 30deg, white 31deg, transparent 32deg, transparent 60deg, white 61deg, transparent 62deg, transparent 90deg, white 91deg, transparent 92deg, transparent 120deg, white 121deg, transparent 122deg, transparent 150deg, white 151deg, transparent 152deg, transparent 180deg, white 181deg, transparent 182deg, transparent 210deg, white 211deg, transparent 212deg, transparent 240deg, white 241deg, transparent 242deg, transparent 270deg, white 271deg, transparent 272deg, transparent 300deg, white 301deg, transparent 302deg, transparent 330deg, white 331deg, transparent 332deg, transparent 360deg)',
+                background: 'conic-gradient(from 0deg, transparent 0deg, white 0.5deg, transparent 1deg, transparent 45deg, white 45.5deg, transparent 46deg, transparent 90deg, white 90.5deg, transparent 91deg, transparent 135deg, white 135.5deg, transparent 136deg, transparent 180deg, white 180.5deg, transparent 181deg, transparent 225deg, white 225.5deg, transparent 226deg, transparent 270deg, white 270.5deg, transparent 271deg, transparent 315deg, white 315.5deg, transparent 316deg, transparent 360deg)',
+                maskImage: 'radial-gradient(circle, white 30%, transparent 70%)',
+                WebkitMaskImage: 'radial-gradient(circle, white 30%, transparent 70%)',
               }}
             />
             <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
