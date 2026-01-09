@@ -25,15 +25,15 @@ export default function Home() {
   const getPositionStyles = (position: string) => {
     switch (position) {
       case '10': // 10 o'clock - upper left
-        return 'top-[10%] left-[5%]'
+        return 'top-[20%] left-[18%]'
       case '2': // 2 o'clock - upper right
-        return 'top-[10%] right-[5%]'
+        return 'top-[20%] right-[18%]'
       case '4': // 4 o'clock - lower right
-        return 'top-[55%] right-[2%]'
+        return 'top-[55%] right-[15%]'
       case '6': // 6 o'clock - bottom center
-        return 'bottom-[5%] left-1/2 -translate-x-1/2'
+        return 'bottom-[12%] left-1/2 -translate-x-1/2'
       case '8': // 8 o'clock - lower left
-        return 'top-[55%] left-[2%]'
+        return 'top-[55%] left-[15%]'
       default:
         return ''
     }
