@@ -31,26 +31,11 @@ export default function HistoryPage() {
       <main className="container mx-auto px-6 py-12">
         <div className="bg-white/90 backdrop-blur-md rounded-xl shadow-xl p-8 max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-newman-red mb-6">Our History</h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 text-lg">
             Originally, Newman Catholic was built as Central Catholic High School to serve
             several parishes in the North Iowa area. Newman Catholic High School was
             established in 1960 with the guidance of Rev. William Powers.
           </p>
-
-          <div className="space-y-4">
-            <div className="border-l-4 border-newman-red pl-4">
-              <h3 className="font-bold text-lg">Founding Years</h3>
-              <p className="text-gray-600">Established to provide Catholic education in North Iowa</p>
-            </div>
-            <div className="border-l-4 border-newman-red-secondary pl-4">
-              <h3 className="font-bold text-lg">Decades of Excellence</h3>
-              <p className="text-gray-600">Consistent academic and athletic achievements</p>
-            </div>
-            <div className="border-l-4 border-newman-red pl-4">
-              <h3 className="font-bold text-lg">Alumni Success</h3>
-              <p className="text-gray-600">Graduates making a difference across the world</p>
-            </div>
-          </div>
         </div>
       </main>
     </div>
