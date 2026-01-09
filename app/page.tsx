@@ -66,21 +66,19 @@ export default function Home() {
       {/* Main Content Area with Knight Logo and Circular Navigation */}
       <main className="relative flex-1 flex items-center justify-center">
         <div className="relative w-full h-full min-h-[calc(100vh-80px)]">
-          {/* Center Knight Logo with Fading Border */}
+          {/* Center Knight Logo with Outline Glow */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            {/* Fading White Border */}
             <div
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[115%] rounded-full"
+              className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]"
               style={{
-                background: 'radial-gradient(circle, transparent 50%, rgba(255,255,255,0.3) 70%, transparent 85%)',
+                filter: 'drop-shadow(0 0 8px rgba(255,255,255,0.4)) drop-shadow(0 0 15px rgba(255,255,255,0.3)) drop-shadow(0 0 25px rgba(255,255,255,0.2))',
               }}
-            />
-            <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
+            >
               <Image
                 src="/Correct Knight PNG (1).png"
                 alt="Newman Catholic Knight Logo"
                 fill
-                className="object-contain drop-shadow-2xl"
+                className="object-contain"
                 priority
               />
             </div>
