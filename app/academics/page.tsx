@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowLeft, GraduationCap } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 
 export default function AcademicsPage() {
   return (
@@ -18,29 +18,13 @@ export default function AcademicsPage() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <header className="relative bg-white/95 backdrop-blur-sm shadow-md">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-              <ArrowLeft className="w-6 h-6 text-newman-red" />
-              <span className="text-lg font-semibold text-newman-red">Back to Home</span>
-            </Link>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
-                <GraduationCap className="w-8 h-8 text-newman-red" />
-                <h1 className="text-2xl font-bold text-newman-red">Academics</h1>
-              </div>
-              <div className="relative w-12 h-12 md:w-16 md:h-16">
-                <Image
-                  src="/Correct Knight PNG (1).png"
-                  alt="Newman Catholic Knight Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
+      <header className="relative py-6 px-6">
+        <div className="container mx-auto flex items-center justify-between">
+          <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+            <ArrowLeft className="w-6 h-6 text-white" />
+            <span className="text-lg font-semibold text-white drop-shadow-lg">Back to Home</span>
+          </Link>
+          <h1 className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg tracking-wide">Academics</h1>
         </div>
       </header>
 
@@ -51,7 +35,7 @@ export default function AcademicsPage() {
             Newman Catholic students consistently achieve academic excellence through
             rigorous coursework and dedication to learning.
           </p>
-          
+
           <div className="space-y-4">
             <div className="border-l-4 border-newman-red pl-4">
               <h3 className="font-bold text-lg">National Merit Scholars</h3>
